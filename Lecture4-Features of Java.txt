@@ -1,0 +1,62 @@
+Features of Java
+->Simple
+->Object Oriented
+->Platform Independent
+->Architecture Neutral
+->Portable
+->Robust
+->Secure
+->High Performace
+->Multi-Threaded
+->Distributed
+
+1.Simple
+-->Java is very easy to learn as its syntax is very simple.
+-->it's Syntax is based on C++.
+-->No complicated features like pointers, operator overloading etc.
+
+2.Object Oriented
+-->Java is object oriented programming language.
+-->OOPs is more secure as it provides data hiding features.
+-->Just like the real world,it is centered on creating objects, manipulated objects and making them work together.
+-->It provides great flexibility,modularity,clarity and reusability.
+Basic concepts of OOPs are:
+1.Object
+2.class
+3.inheritance
+4.Polymorphism
+5.Abstraction
+6.Encapsulation
+
+3.Platform Independent
+-->Java is platform independent because it is different from other languages like C, C++, etc. which are compiled into platform specific machines while Java is a write once, run anywhere language. A platform is the hardware or software environment in which a program runs.
+-->It has two components:
+1.Runtime Environment
+2.API(Application Programming Interface)
+
+4.Architecture Neutral
+-->Java is architecture neutral because there are no implementation dependent features, for example, the size of primitive types is fixed.
+-->In C programming, int data type occupies 2 bytes of memory for 32-bit architecture and 4 bytes of memory for 64-bit architecture. However, it occupies 4 bytes of memory for both 32 and 64-bit architectures in Java.
+
+5.Portable
+-->Java is portable because it facilitates you to carry the Java bytecode to any platform. It doesn't require any implementation.
+
+6.Robust
+-->It uses strong memory management.
+-->There is a lack of pointers that avoids security problems.
+-->Java provides automatic garbage collection which runs on the Java Virtual Machine to get rid of objects which are not being used by a Java application anymore.
+-->There are exception handling and the type checking mechanism in Java. All these points make Java robust.
+
+7.Secure
+-->Java is best known for its security. With Java, we can develop virus-free systems. Java is secured because:
+1.No explicit pointer
+2.Java Programs run inside a virtual machine sandbox
+
+8.High Performace
+-->Java is faster than other traditional interpreted programming languages because Java bytecode is "close" to native code. It is still a little bit slower than a compiled language (e.g., C++). Java is an interpreted language that is why it is slower than compiled languages, e.g., C, C++, etc.
+
+9.Multi-Threaded
+-->A thread is like a separate program, executing concurrently. We can write Java programs that deal with many tasks at once by defining multiple threads. The main advantage of multi-threading is that it doesn't occupy memory for each thread. It shares a common memory area. Threads are important for multi-media, Web applications, etc.
+
+10.Distributed
+-->Java is distributed because it facilitates users to create distributed applications in Java. RMI and EJB are used for creating distributed applications. This feature of Java makes us able to access files by calling the methods from any machine on the internet.
