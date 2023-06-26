@@ -1,0 +1,28 @@
+what is Git?
+->Git is a distributed version control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+what is Github?
+->GitHub is a web-based Git repository hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features. 
+
+Git Commands-----------------
+
+->git config
+Usage: git config –global user.name “[name]”  
+Usage: git config –global user.email “[email address]”  
+This command sets the author name and email address respectively to be used with your commits.
+
+->git init
+Usage: git init [repository name]
+This command is used to start a new repository.
+
+->git add
+Usage: git add [file]  
+This command adds a file to the staging area.
+
+->git commit
+Usage: git commit -m “[ Type in the commit message]”  
+This command records or snapshots the file permanently in the version history.
+
+git status
+Usage: git status  
+This command lists all the files that have to be committed. 
