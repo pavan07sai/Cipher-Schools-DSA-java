@@ -1,0 +1,25 @@
+what is instantiation?
+-->Creation of Object of a class
+
+Instantiaton Process:
+-->Majorly three Steps
+1.Creating a variable to store the the reference of the object.
+2.Create an object using new key word.
+3.Assigning Reference of the created object to the variable.
+
+Syntax for Instantiation:
+ClassName objName = new ClassName();  
+Or
+ClassName cn;  
+cn= new ClassName;
+
+Heap and Stack Memory
+
+Heap Memory:
+Heap stores the actual objects. It creates when the JVM starts up. The user can control the heap if needed. It can be of fixed or dynamic size. When you use a new keyword, the JVM creates an instance for the object in a heap. While the reference of that object stores in the stack. There exists only one heap for each running JVM process. When heap becomes full, the garbage is collected. 
+
+Stack Memory:
+Stack Memory in Java is used for static memory allocation and the execution of a thread. It contains primitive values that are specific to a method and references to objects referred from the method that are in a heap.Access to this memory is in Last-In-First-Out (LIFO) order. Whenever we call a new method, a new block is created on top of the stack which contains values specific to that method, like primitive variables and references to objects.
+
+Garbage Collection:
+Garbage collection in Java is the process by which Java programs perform automatic memory management. Java programs compile to bytecode that can be run on a Java Virtual Machine, or JVM for short. When Java programs run on the JVM, objects are created on the heap, which is a portion of memory dedicated to the program. Eventually, some objects will no longer be needed. The garbage collector finds these unused objects and deletes them to free up memory.
