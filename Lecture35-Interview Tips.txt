@@ -1,0 +1,13 @@
+------------Interview Tips--------------
+What all is required for the interview?
+
+1.CONFIDENCE
+2.Knowledge of the language
+3.Data Structures & Algorithms
+4.Project
+5.DBMS
+6.Operating systems
+7.Networks
+8.Puzzles
+9.HR Preparation
+10.REVISION
